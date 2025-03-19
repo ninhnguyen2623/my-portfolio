@@ -1,5 +1,5 @@
 import { motion } from 'motion/react'
-import { PROJECTS } from '../constants'
+import { PROJECTS } from '../constants/index'
 interface Project {
     title: string,
     image: string,

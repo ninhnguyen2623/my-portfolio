@@ -1,5 +1,5 @@
 import React from 'react'
-import { EXPERIENCES } from '../constants'
+import { EXPERIENCES } from '../constants/index'
 import { motion } from 'motion/react'
 
 interface Experience {

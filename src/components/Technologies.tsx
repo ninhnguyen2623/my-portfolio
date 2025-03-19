@@ -1,10 +1,7 @@
-import React from 'react'
 import { RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri'
 import { TbBrandNextjs } from "react-icons/tb";
-import { SiMongodb, SiTypescript } from "react-icons/si";
-import { DiRedis } from "react-icons/di";
+import { SiTypescript } from "react-icons/si";
 import { FaNodeJs, FaPython } from "react-icons/fa";
-import { BiLogoPostgresql } from "react-icons/bi";
 import { motion } from "motion/react"
 
 const inconVariants = (duration: number) => ({
