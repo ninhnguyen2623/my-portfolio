@@ -1,4 +1,3 @@
-import React from 'react'
 import { EXPERIENCES } from '../constants/index'
 import { motion } from 'motion/react'
 
@@ -7,7 +6,7 @@ interface Experience {
     role: string,
     company: string,
     description: string,
-    technologies: [],
+    technologies: string[],
 
 }
 export default function Experience() {
