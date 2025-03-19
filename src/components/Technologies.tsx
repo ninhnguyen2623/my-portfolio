@@ -12,7 +12,7 @@ const inconVariants = (duration: number) => ({
             duration: duration,
             ease: "linear",
             repeat: Infinity,
-            repeatType: "reverse" as const
+            repeatType: "reverse" as const // TODO:
         }
     }
 });
