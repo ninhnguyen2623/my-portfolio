@@ -1,11 +1,10 @@
-import { motion } from 'motion/react'
+import { motion } from 'framer-motion'
 import { PROJECTS } from '../constants/index'
 interface Project {
-    title: string,
-    image: string,
-    description:
-    string,
-    technologies: [],
+    title: string;
+    image: string;
+    description: string;
+    technologies: string[];
 }
 export default function Projects() {
     return (

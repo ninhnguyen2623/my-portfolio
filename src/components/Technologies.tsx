@@ -2,7 +2,7 @@ import { RiReactjsLine, RiTailwindCssFill } from 'react-icons/ri'
 import { TbBrandNextjs } from "react-icons/tb";
 import { SiTypescript } from "react-icons/si";
 import { FaNodeJs, FaPython } from "react-icons/fa";
-import { motion } from "motion/react"
+import { motion } from "framer-motion"
 
 const inconVariants = (duration: number) => ({
     initial: { y: -10 },
