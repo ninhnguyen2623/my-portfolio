@@ -1,5 +1,9 @@
-import project1 from "../assets/projects/project-1.png";
-import project2 from "../assets/projects/project-2.png";
+import project2Home from "../assets/image28.png";
+import project2Route from "../assets/image59.png";
+import project2Admin from "../assets/image11.png";
+import project1Home from "../assets/projec1Home.png";
+import project1Conver from "../assets/project1Conver.png";
+import project1Conver2 from "../assets/project1Conver1.png";
 
 export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting robust and scalable web applications. 
 I have honed my skills in front-end technologies like React, Next.js and TypeScript. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
@@ -39,19 +43,42 @@ export const EXPERIENCES = [
 
 export const PROJECTS = [
   {
-    title: "ChatPDF Website",
-    image: project1,
+    title: "Train Ticket Booking Website: (Teamsize: 2)",
+    image: [project2Home, project2Route, project2Admin],
+    role: "Frontend",
     description:
-      "ChatPDF is a web application that allows users to upload PDF documents and engage in real-time conversations with their content using AI models like Gemini and DeepSeek. Built with ReactJS, TypeScript, and TailwindCSS, it features a responsive split-screen UI for seamless PDF viewing and chatting. The app includes secure user authentication, Google OAuth2 login, and a summarization tool that exports AI-generated insights into Word files. Integrated with a Django backend and Redis caching, it optimizes performance for quick, context-aware responses. Designed for students and professionals, ChatPDF simplifies extracting information from PDFs through natural language interaction.",
-    technologies: ["React", "Typescript", "TailwindCss", "AI API", "Python", "SQLite"],
+      "Developed a frontend-focused web application for booking train tickets, leveraging NextJS and TypeScript to create a fast, responsive, and user-friendly interface. Integrated with a .NET backend API to deliver real-time booking functionalities with an emphasis on seamless UI/UX design.",
+    Achievements: [
+      "-	Designed a secure user authentication interface with login/registration and integrated token handling (login, registration, and refresh) using Redux Toolkit for efficient user state management and API responses.",
+      "-	Built an interactive ticket booking interface with real-time search and filtering (routes, trains, seat classes, schedules), utilizing TypeScript for type-safe data handling and NextJS API routes for efficient data retrieval.",
+      "-	Created a dynamic seat selection UI with clickable seat grids and availability indicators, styled with TailwindCSS for an optimized, responsive, and user-friendly design.",
+      "-	Designed a trip planning dashboard interface displaying train schedules, route details, and journey timelines.",
+      "-	Implemented a customer management interface for viewing booking history and cancellation options, designed for reusability and scalability.",
+      "-	Developed an admin page using Shadcn/UI, featuring a clear table with integrated CRUD functionality (create, update, delete) columns and toast notifications for admin feedback.",
+      "-	Built core admin functionalities, including booking management, route management, carriage management, seat management, schedule management, and user management."
+    ],
+    github: ["https://github.com/ninhnguyen2623/traintickethub-client "],
+    technologies: ["Nextjs", "Typescript", "TailwindCss", ".Net", "MySQLd"],
   },
   {
-    title: "Train Ticket Booking Website",
-    image: project2,
+    title: "ChatPDF Website",
+    image: [project1Home, project1Conver2, project1Conver],
+    role: "Fullstack",
     description:
-      "Train Ticket Booking is a web application built with NextJS, TypeScript, and TailwindCSS, enabling users to search, book, and manage train tickets with a responsive, intuitive interface. It features real-time ticket filtering by route, seat class, and schedule, integrated with a .NET backend API for dynamic data. The frontend includes secure login/registration, a customer dashboard for booking history, and interactive seat selection grids using Shadcn/UI. Optimized with server-side rendering, it ensures fast load times and enhanced SEO performance. Designed for ease of use, the app streamlines the train travel booking experience for all users.",
-    technologies: ["Nextjs", "Typescript", "TailwindCss", ".Net", "MySQLd"],
+      "ChatPDF is a web app that lets users upload PDFs and chat with their content using AI models like Gemini and DeepSeek. It aims to help students, researchers, and professionals extract information quickly via natural language. Built with ReactJS, TypeScript, and TailwindCSS, it offers a friendly UI with Google OAuth2 login and summarization features. The Python Django backend uses Redis and diverse AI APIs for efficiency. ChatPDF provides a smooth, secure document interaction experience",
+    Achievements: [
+      "-	Designed a secure authentication interface with manual login/registration, Google OAuth2 integration, and robust JWT refresh token handling, using Redux for user state management and Axios for seamless API interactions",
+      "-	Built an intuitive PDF upload feature with a drag-and-drop UI, paired with react-pdf-viewer for in-browser rendering, styled with TailwindCSS for a responsive layout.",
+      "-	Created a real-time chat interface with dynamic message rendering and AI model selection (Gemini, DeepSeek, Llama, Qwen), leveraging Redux for state consistency and React Toastify for success/error notifications.",
+      "-	Developed a conversation summarization tool with a frontend button to trigger summaries, displaying clean results in the UI and enabling Word document downloads with polished formatting.",
+      "-	Crafted a responsive split-screen design (PDF viewer on left, chat on right) using TailwindCSS, featuring smooth scrolling, typing animations, and hover effects for enhanced usability.",
+      "-	Implemented conversation history management with a sidebar UI, supporting CRUD operations (create, read, update, delete) through REST API calls, styled with Ant Design components for a modern look.",
+      "-	Optimized frontend performance with Vite’s fast bundling and lazy-loaded components, improving load times and user experience across devices.",
+    ],
+    github: ["https://github.com/ninhnguyen2623/chatpdf-client", "https://github.com/ninhnguyen2623/chatpdf-api "],
+    technologies: ["React", "Typescript", "TailwindCss", "AI API", "Python (Django)", "SQLite"],
   }
+
 ];
 
 export const CONTACT = {
