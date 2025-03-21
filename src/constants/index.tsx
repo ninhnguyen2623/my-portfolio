@@ -47,7 +47,7 @@ export const PROJECTS = [
     image: [project2Home, project2Route, project2Admin],
     role: "Frontend",
     description:
-      "Developed a frontend-focused web application for booking train tickets, leveraging NextJS and TypeScript to create a fast, responsive, and user-friendly interface. Integrated with a .NET backend API to deliver real-time booking functionalities with an emphasis on seamless UI/UX design.",
+      "The project of online train ticket sales system is a platform that helps passengers easily book train tickets, look up schedules, and online payment conveniently. The system helps improve the booking process, minimize the queue time at the station and optimize seat management.",
     Achievements: [
       "-	Designed a secure user authentication interface with login/registration and integrated token handling (login, registration, and refresh) using Redux Toolkit for efficient user state management and API responses.",
       "-	Built an interactive ticket booking interface with real-time search and filtering (routes, trains, seat classes, schedules), utilizing TypeScript for type-safe data handling and NextJS API routes for efficient data retrieval.",
