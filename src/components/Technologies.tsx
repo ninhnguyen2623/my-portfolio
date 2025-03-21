@@ -3,6 +3,7 @@ import { TbBrandNextjs } from "react-icons/tb";
 import { SiTypescript } from "react-icons/si";
 import { FaNodeJs, FaPython } from "react-icons/fa";
 import { motion } from "framer-motion"
+import { FaSass } from "react-icons/fa";
 
 const inconVariants = (duration: number) => ({
     initial: { y: -10 },
@@ -63,6 +64,13 @@ export default function Technologies() {
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
+                    <FaSass className='text-7xl text-pink-500' />
+                </motion.div>
+                <motion.div
+                    variants={inconVariants(1)}
+                    initial="initial"
+                    animate="animate"
+                    className="rounded-2xl border-4 border-neutral-800 p-4">
                     <RiTailwindCssFill className='text-7xl text-cyan-400' />
                 </motion.div>
                 <motion.div
@@ -70,7 +78,7 @@ export default function Technologies() {
                     initial="initial"
                     animate="animate"
                     className="rounded-2xl border-4 border-neutral-800 p-4">
-                    <FaPython className='text-7xl text-pink-500' />
+                    <FaPython className='text-7xl text-blue-500' />
                 </motion.div>
 
             </motion.div>
