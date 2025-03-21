@@ -57,7 +57,7 @@ export const PROJECTS = [
       "-	Developed an admin page using Shadcn/UI, featuring a clear table with integrated CRUD functionality (create, update, delete) columns and toast notifications for admin feedback.",
       "-	Built core admin functionalities, including booking management, route management, carriage management, seat management, schedule management, and user management."
     ],
-    github: ["https://github.com/ninhnguyen2623/traintickethub-client "],
+    github: ["https://github.com/ninhnguyen2623/trainticketbooking.client"],
     technologies: ["Nextjs", "Typescript", "TailwindCss", ".Net", "MySQLd"],
   },
   {

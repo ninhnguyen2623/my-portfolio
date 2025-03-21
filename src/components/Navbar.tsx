@@ -12,7 +12,7 @@ export default function Navbar() {
         </div>
         <div className="flex items-center justify-center mr-3 gap-4 text-2xl ">
           <FaLinkedin />
-          <a href="https://github.com/ninhnguyen2623">
+          <a href="https://github.com/ninhnguyen2623" target="_blank" rel="noopener noreferrer">
             <FaGithub />
           </a>
           <FaXTwitter />

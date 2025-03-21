@@ -4,6 +4,7 @@ import { motion } from "motion/react"
 import { LuMapPinCheck } from "react-icons/lu";
 import { CONTACT } from '../constants'
 import { FaReact } from "react-icons/fa";
+import { MdOutgoingMail } from "react-icons/md";
 const container = (delay: number) => ({
     hidden: { x: -100, opacity: 0 },
     visible: {
@@ -36,18 +37,23 @@ export default function () {
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
-                            className='my-2 max-w-xl flex items-center py-1 font-light tracking-tighter '><LuMapPinCheck className='mr-2 text-xl text-pink-500' /> {CONTACT.address} </motion.p>
+                            className='my-2 max-w-xl flex items-center font-light tracking-tighter '><LuMapPinCheck className='mr-2 text-xl text-pink-500' /> {CONTACT.address} </motion.p>
+                        <motion.p
+                            variants={container(0)}
+                            initial="hidden"
+                            animate="visible"
+                            className='my-2 max-w-xl flex items-center font-light tracking-tighter '><MdOutgoingMail className='mr-2 text-xl text-yellow-500' /> {CONTACT.email} </motion.p>
                         <motion.p
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
                             className=' max-w-xl flex font-light tracking-tighter '><FaReact className='mr-2 text-3xl text-cyan-500' />
-                            <p>Front-end: I have experience working with <span className='font-bold'>ReactJS (NextJS, Hook, Redux Toolkit), TailwindCss, ShadcnUi, Bootstrap, Axios,</span> and other technologies.</p> </motion.p>
+                            <p>Frontend: I have experience working with <span className='font-bold'>ReactJS (NextJS, Hook, Redux Toolkit), TailwindCss, ShadcnUi, Bootstrap, Axios,</span> and other technologies.</p> </motion.p>
                         <motion.p
                             variants={container(0)}
                             initial="hidden"
                             animate="visible"
-                            className='my-2 max-w-xl py-6 font-light tracking-tighter'>{HERO_CONTENT}</motion.p>
+                            className='my-2 max-w-xl  font-light tracking-tighter'>{HERO_CONTENT}</motion.p>
                     </div>
                 </div>
                 <div className="w-full lg:w-1/2 lg:p-8">

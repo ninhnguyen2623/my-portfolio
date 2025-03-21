@@ -64,7 +64,7 @@ export default function Projects() {
                             <h6 className='mb-2 font-semibold'>
                                 GitHub
                                 {item.github.map((github, index) => (
-                                    <p className=' text-neutral-400' key={index}> <a href={github}>{github}</a></p>
+                                    <p className=' text-neutral-400' key={index}> <a href={github} target="_blank" rel="noopener noreferrer">{github}</a></p>
                                 ))}
                             </h6>
                             <h6 className='my-2 font-semibold'>
