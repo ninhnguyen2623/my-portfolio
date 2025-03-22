@@ -1,9 +1,9 @@
 import project2Home from "../assets/image28.png";
 import project2Route from "../assets/image59.png";
 import project2Admin from "../assets/image11.png";
-import project1Home from "../assets/projec1Home.png";
-import project1Conver from "../assets/project1Conver.png";
-import project1Conver2 from "../assets/project1Conver1.png";
+import project1Home from "../assets/projectchat2.png";
+import project1Conver from "../assets/projectchat1.png";
+import project1Conver2 from "../assets/projectchat3.png";
 
 export const HERO_CONTENT = `I am a passionate frontend developer with a knack for crafting robust and scalable web applications. 
 I have honed my skills in front-end technologies like React, Next.js and TypeScript. My goal is to leverage my expertise to create innovative solutions that drive business growth and deliver exceptional user experiences.`;
