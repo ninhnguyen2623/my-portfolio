@@ -35,7 +35,7 @@ export default function Education() {
                                         <FaExternalLinkAlt />
                                     </div>
                                     <div className="text-md mt-5 font-md">
-                                        Aug 2021 - Now
+                                        Aug 2021 - Oct 2025
                                     </div>
                                 </div>
                             </a>

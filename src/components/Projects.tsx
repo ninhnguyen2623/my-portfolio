@@ -30,8 +30,8 @@ export default function Projects() {
                                     key={index}
                                     src={item}
                                     alt={item}
-                                    width={550}
-                                    height={550}
+                                    width={460}
+                                    height={460}
                                     className='mb-6 rounded'
                                 />
                             ))}
