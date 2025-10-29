@@ -71,7 +71,7 @@ export default function Projects() {
                                 Technologies Used
                             </h6>
                             {item.technologies.map((tech, index) => (
-                                <span key={index} className='mr-2 rounded bg-neutral-800 px-2 py-1 font-medium text-purple-900'>
+                                <span key={index} className='mr-2 mt-2 rounded bg-neutral-800 px-2 py-1 font-medium text-purple-900'>
                                     {tech}
                                 </span>
                             ))}
